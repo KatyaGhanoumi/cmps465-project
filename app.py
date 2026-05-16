@@ -6,9 +6,9 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <h1>CMPS465 CI/CD Project</h1>
+    <h1>CMPS465 CI/CD Project — Updated!</h1>
     <p>Student: kwg255 - Beirut Arab University</p>
-    <p>Version 1.0 - Deployed automatically via GitHub Actions</p>
+    <p>Version 2.0 - Deployed automatically via GitHub Actions</p>
     '''
 
 # Health check - Azure uses this to verify app is running
