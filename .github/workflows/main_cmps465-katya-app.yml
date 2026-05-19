@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'cmps465-katya-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E9B68C1323F04AFAA0781F346E437CC0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_46E2F97F28714AD68836C6C21973D172 }}
